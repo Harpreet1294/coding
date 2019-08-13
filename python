@@ -1,0 +1,8 @@
+l=[]
+while(1):
+    n=input()
+    l.append(n)
+    if(n=='@'):
+        break
+l.remove('@')
+print(l)
